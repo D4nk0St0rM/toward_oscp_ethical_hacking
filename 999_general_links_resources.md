@@ -27,6 +27,7 @@
 - [Pentestmonkey - Cheatsheets](http://pentestmonkey.net/category/cheat-sheet)
 - [Red Teaming Experiments - Cheatsheets](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 - [Berzerk0 Git Page](https://berzerk0.github.io/GitPage/index.html)
+- [Hackers in flight](https://hackerifg.com/home/)
 
 ### :panda_face: other links, tools, secondary supporting resources
 
@@ -53,7 +54,7 @@
 - [Seatbelt](https://github.com/GhostPack/Seatbelt)
 - [SharpUp](https://github.com/GhostPack/SharpUp)
 
-### :panda_face: General Links
+### :panda_face: General Links / to sort & categorise
 
 https://www.fuzzysecurity.com/tutorials/16.html
 
