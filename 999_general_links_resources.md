@@ -53,6 +53,7 @@
 - [Metasploit Local Exploit Suggester](https://blog.rapid7.com/2015/08/11/metasploit-local-exploit-suggester-do-less-get-more/)
 - [Seatbelt](https://github.com/GhostPack/Seatbelt)
 - [SharpUp](https://github.com/GhostPack/SharpUp)
+- [Buffer Overflows](https://5bhuv4n35h.github.io/buffer_overflow/)
 
 ### :panda_face: General Links / to sort & categorise
 
