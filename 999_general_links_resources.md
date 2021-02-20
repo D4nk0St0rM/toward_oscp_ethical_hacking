@@ -95,7 +95,17 @@ https://maxkersten.nl/binary-analysis-course/malware-analysis/android-sms-steale
 
 https://github.com/backdoorhub/shell-backdoor-list
 
-https://alex.kaskaso.li/post/revisiting-email-spoofing 
+https://alex.kaskaso.li/post/revisiting-email-spoofing
+
+https://blog.detectify.com/2019/07/31/bypassing-cloudflare-waf-with-the-origin-server-ip-address/
+
+https://srlabs.de/bites/sim_attacks_demystified/
+
+https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/
+
+https://www.darkreading.com/analytics/toyotas-car-hacking-tool-now-available/d/d-id/1335121?_mc=rss_x_drr_edt_aud_dr_x_x-rss-simple
+
+https://www.sourcedgroup.com/blog/gcp-genomics-big-query 
 
 
 * * *
