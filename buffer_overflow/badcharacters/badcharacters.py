@@ -1,3 +1,8 @@
+#!/usr/bin/python
+
+#### D4nk0St0rM
+#### spread l0v3, share Kn0wl3dge
+
 # Just set the bad chars then call getCharsExceptBad to return the list of all characters without the bad ones in.
 
 class Chars(object):
