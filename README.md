@@ -46,7 +46,7 @@ including but not exhaustive:
 - @Rainsec_
 - Arr0way
 
-[More linked here](https://github.com/D4nk0St0rM/ethicalhacking_d4nk0_method_build/blob/main/999_links_tools_resources.md#blogs--guides--methodologies)
+[More linked here](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/999_general_links_resources.md)
 
 * * *
 
