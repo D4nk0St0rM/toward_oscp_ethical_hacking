@@ -1,3 +1,8 @@
+```
+tree -d /usr/share/wordlists
+```
+
+
 #### :panda_face: Various resources for wordlist creation
 
 - [cewl](https://tools.kali.org/password-attacks/cewl)
