@@ -9,7 +9,3 @@
 
 
 
-##### :panda_face: Thanks to:
-
-- [Berzerk0](https://github.com/berzerk0)
-- 
