@@ -1,0 +1,27 @@
+### :panda_face: A list of websites, services, additional resources signed up and used with varying degree
+
+- haveibeenpwned
+- fullcontact
+- Builtwith
+- Hashes.org
+- Hunter
+- Securitytrails
+- Shodan
+- Bing search
+- Google search
+- Leaklookup
+- EmailRep
+- scylla.sh
+- Zoopla 
+- Companies house
+- wpvulndb
+- snusbase
+- Peoplemon
+- Dehashed
+- Shodan.io
+- Leaklookup
+- h8mail
+- discover
+- hunchley
+- burp
+- nmapAutomator
