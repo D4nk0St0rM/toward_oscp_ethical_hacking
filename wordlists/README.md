@@ -6,6 +6,7 @@
 - [kwprocesser](https://github.com/hashcat/kwprocessor)
 - [mentalist](https://github.com/sc0tfree/mentalist)
 - [BEWGor](https://github.com/berzerk0/BEWGor)
+- [pydictor](https://github.com/LandGrey/pydictor)
 
 
 
