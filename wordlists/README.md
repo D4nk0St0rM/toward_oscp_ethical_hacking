@@ -14,7 +14,7 @@
 - [DOMAIN - Fanboy/Adblock](https://github.com/ryanbr/fanboy-adblock)
 - [DICTIONNARY - English Words](https://github.com/dwyl/english-words)
 - [DICTIONNARY - Probable Wordlists](https://github.com/berzerk0/Probable-Wordlists)
-- [DICTIONNARY - Most common English words from Google sorted by frequency](https://github.com/first20hours/google-10000-english
+- [DICTIONNARY - Most common English words from Google sorted by frequency](https://github.com/first20hours/google-10000-english)
 - [DNS - Cisco Umbrella Top 1 million](http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip)
 - [DNS - Cisco Umbrella Top TLDs](http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m-TLD.csv.zip)
 - [DNS - Alexa Top 1 million](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip)
