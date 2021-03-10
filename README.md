@@ -5,7 +5,9 @@
      <i><b>spread l0v3, share kn0wl3dge</b></i>
 
 </p>
-
+<p align="center">
+https://www.offensive-security.com/offsec/say-try-harder/
+</p>
 <p align="center"><b><i> A work in progress | evolving with oscp learning | building my own method, approach, configs and references
 </p></b></i>
 
