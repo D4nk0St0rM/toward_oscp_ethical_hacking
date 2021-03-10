@@ -28,6 +28,7 @@
 - [Red Teaming Experiments - Cheatsheets](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 - [Berzerk0 Git Page](https://berzerk0.github.io/GitPage/index.html)
 - [Hackers in flight](https://hackerifg.com/home/)
+- [emaragkos resources list](https://emaragkos.gr/resources/)
 
 ### :panda_face: other links, tools, secondary supporting resources
 
