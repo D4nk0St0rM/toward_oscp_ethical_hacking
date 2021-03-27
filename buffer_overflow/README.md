@@ -2,17 +2,6 @@
 
 ### Buffer Overflows
 
-#### Programs needed:
-- Windows
-- Immunity Debugger
-
-#### The Stack:
-Extended Stack Pointer (ESP)
-Buffer Space
-Extended Base Pointer (EBP)
-Extended Instruction Pointer (EIP)
-Return Address
-
 #### The Process:
 - 1 Spiking
 - 2 Fuzzing
