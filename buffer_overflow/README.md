@@ -7,7 +7,7 @@
 - 2 Fuzzing
 - 3 Finding the Offset
 - 4 Overwriting the EIP
-- 5 Finding Bad Characters
+- 5 Finding Bad Characters [ref: https://ostermiller.org/calc/asciism.html]
 - 6 Finding the Right Module
 - 7 Generating Shellcode
 - 8 Gain Root Access
