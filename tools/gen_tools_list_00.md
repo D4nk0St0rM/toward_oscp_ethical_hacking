@@ -1,0 +1,42 @@
+# Tools
+<br />- <a href="https://github.com/Soldie/HiddenEye-DarkSecDevelopers">HiddenEye</a>
+<br />- <a href="https://github.com/rezaaksa/PhishX">PhishX</a>
+<br />- <a href="https://github.com/evait-security/weeman">Weeman</a>
+<br />- <a href="https://github.com/securestate/king-phisher">King-Phisher</a>
+<br />- <a href="https://github.com/UndeadSec/SocialFish">SocialPhish</a>
+<br />- <a href="https://github.com/gophish/gophish">Gophish</a>
+<br />- <a href="https://github.com/sweetsoftware/Artemis">Artemis</a>
+<br />- <a href="https://github.com/pan0pt1c0n/PhishBait">PhishBait</a>
+<br />- <a href="https://github.com/ring0lab/catphish">CatPhish</a>
+<br />- <a href="https://github.com/PowerScript/STPv">STP</a>
+<br />- <a href="https://github.com/Dionach/PhEmail">PhEmail</a>
+<br />- <a href="https://github.com/threatexpress/domainhunter">DomainHunter</a>
+<br />- <a href="https://github.com/ustayready/CredSniper">CredSniper</a>
+<br />- <a href="https://github.com/n1nj4sec/pupy">Pupy</a>
+<br />- <a href="https://github.com/UndeadSec/Enigma">Enigma</a>
+<br />- <a href="https://github.com/navisecdelta/EmailGen">EmailGen</a>
+<br />- <a href="https://github.com/ruthlezs/ie11_vbscript_exploit">ie11 Broswer Exploit</a>
+<br />- Neos Email Spoofer
+<br />- <a href="https://github.com/Yt1g3r/CVE-2018-8174_EXP">CVE-2018-8174</a>
+<br />- <a href="https://github.com/oddcod3/Phantom-Evasion">Phantom-Evasion</a>
+<br />- <a href="https://github.com/UnDeadSec/EvilURL">EvilURL</a>
+<br />- <a href="https://github.com/D4Vinci/Cr3dOv3r">Cr3d0v3r</a>
+<br />- <a href="https://github.com/D4Vinci/Cuteit">CuteIt</a>
+<br />- <a href="https://github.com/Mr-Un1k0d3r/ThunderShell">ThunderShell</a>
+<br />- <a href="https://github.com/hlldz/SpookFlare">SpookFlare</a>
+<br />- <a href="https://github.com/Ignitetch/AdvPhishing">ADV-Phish</a>
+<br />- <a href="https://github.com/MRGEffitas/Ironsquirrel">IronSquirrel</a>
+<br />- <a href="https://github.com/NYAN-x-CAT/JS-Downloader">NYAN-x-CAT JS Downloader</a>
+<br />- <a href="https://github.com/thelinuxchoice/evilreg">EvilReg</a>
+<br />- <a href="https://github.com/Technowlogy-Pushpender/fakemailer">FakeMailer</a>
+<br />- <a href="https://github.com/khawabkashyap/getdroid">GetDroid</a>
+<br />- <a href="https://github.com/Technowlogy-Pushpender/apkinfector">apkinfector</a>
+<br />- <a href="https://github.com/BiZken/PhishMailer">PhishMailer</a>
+<br />- <a href="https://github.com/kphongagsorn/adobe-flash-cve2018-15982">Adove Flash CVE-2018-15985</a>
+<br />- <a href="https://github.com/0x09AL/DNS-Persist">DNS-Persist</a>
+<br />- <a href="https://github.com/entynetproject/ghost">Ghost</a>
+<br />- <a href="https://github.com/entynetproject/mouse">Mouse</a>
+<br />- <a href="https://github.com/JasonJerry/lockphish">LockPhish</a>
+<br />- <a href="https://github.com/Ignitetch/whatsapp-phishing">WhatPhish</a>
+<br />- <a href="https://github.com/j-dogcoder/Blackeye-2.0">Blackeye-2.0</a>
+</details>
