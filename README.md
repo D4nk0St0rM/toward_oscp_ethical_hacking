@@ -18,7 +18,7 @@ Framework and steps for my ethical hacking approach whislt studying for OSCP
 A total work in progress which will continually evolve as I find my own flow and method
 </p>
 <p align="center">
- Planning on building template out in <a href="https://joplinapp.org/">Joplin</a> and I shall duplicate in <a href="https://pkgs.org/download/cherrytree">CherryTree</a> once refined enough to be useful for others on the same journey
+ Planning on building template out in <a href="https://joplinapp.org/">Joplin</a> once refined enough to be useful for others on the same journey
  </p>
 
 <p align="center">
@@ -49,6 +49,7 @@ including but not exhaustive:
 - Arr0way
 
 [More linked here](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/999_general_links_resources.md)
+others linked where appropriate in files
 
 * * *
 
