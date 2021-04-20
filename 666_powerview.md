@@ -2,67 +2,67 @@
 [PowerView.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1)
 
 
-# get all the groups a user is effectively a member of, 'recursing up' using tokenGroups
+get all the groups a user is effectively a member of, 'recursing up' using tokenGroups
 ```
 Get-DomainGroup -MemberIdentity <User/Group>
 ```
-# get all the effective members of a group, 'recursing down'
+get all the effective members of a group, 'recursing down'
 ```
 Get-DomainGroupMember -Identity "Domain Admins" -Recurse
 ```
-# use an alterate creadential for any function
+use an alterate creadential for any function
 ```
 $SecPassword = ConvertTo-SecureString 'BurgerBurgerBurger!' -AsPlainText -Force
 $Cred = New-Object System.Management.Automation.PSCredential('TESTLAB\dfm.a', $SecPassword)
 Get-DomainUser -Credential $Cred
 ```
-# retrieve all the computer dns host names a GPP password applies to
+retrieve all the computer dns host names a GPP password applies to
 ```
 Get-DomainOU -GPLink '<GPP_GUID>' | % {Get-DomainComputer -SearchBase $_.distinguishedname -Properties dnshostname}
 ```
-# get all users with passwords changed > 1 year ago, returning sam account names and password last set times
+ get all users with passwords changed > 1 year ago, returning sam account names and password last set times
 ```
 $Date = (Get-Date).AddYears(-1).ToFileTime()
 Get-DomainUser -LDAPFilter "(pwdlastset<=$Date)" -Properties samaccountname,pwdlastset
 ```
-# all enabled users, returning distinguishednames
+all enabled users, returning distinguishednames
 ```
 Get-DomainUser -LDAPFilter "(!userAccountControl:1.2.840.113556.1.4.803:=2)" -Properties distinguishedname
 Get-DomainUser -UACFilter NOT_ACCOUNTDISABLE -Properties distinguishedname
 ```
-# all disabled users
+all disabled users
 ```
 Get-DomainUser -LDAPFilter "(userAccountControl:1.2.840.113556.1.4.803:=2)"
 Get-DomainUser -UACFilter ACCOUNTDISABLE
 ```
-# all users that require smart card authentication
+all users that require smart card authentication
 ```
 Get-DomainUser -LDAPFilter "(useraccountcontrol:1.2.840.113556.1.4.803:=262144)"
 Get-DomainUser -UACFilter SMARTCARD_REQUIRED
 ```
-# all users that *don't* require smart card authentication, only returning sam account names
+all users that *don't* require smart card authentication, only returning sam account names
 ```
 Get-DomainUser -LDAPFilter "(!useraccountcontrol:1.2.840.113556.1.4.803:=262144)" -Properties samaccountname
 Get-DomainUser -UACFilter NOT_SMARTCARD_REQUIRED -Properties samaccountname
 ```
-# use multiple identity types for any *-Domain* function
+use multiple identity types for any *-Domain* function
 ```
 'S-1-5-21-890171859-3433809279-3366196753-1114', 'CN=dfm,CN=Users,DC=testlab,DC=local','4c435dd7-dc58-4b14-9a5e-1fdb0e80d201','administrator' | Get-DomainUser -Properties samaccountname,lastlogoff
 ```
-# find all users with an SPN set (likely service accounts)
+find all users with an SPN set (likely service accounts)
 ```
 Get-DomainUser -SPN
 ```
-# check for users who don't have kerberos preauthentication set
+check for users who don't have kerberos preauthentication set
 ```
 Get-DomainUser -PreauthNotRequired
 Get-DomainUser -UACFilter DONT_REQ_PREAUTH
 ```
-# find all service accounts in "Domain Admins"
+find all service accounts in "Domain Admins"
 ```
 Get-DomainUser -SPN | ?{$_.memberof -match 'Domain Admins'}
 ```
-# find users with sidHistory set
+find users with sidHistory set
 ```
 Get-DomainUser -LDAPFilter '(sidHistory=*)'
 ```
