@@ -60,8 +60,6 @@
 
 https://www.fuzzysecurity.com/tutorials/16.html
 
-https://github.com/D4nk0St0rM/PayloadsAllTheThings
-
 https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets
