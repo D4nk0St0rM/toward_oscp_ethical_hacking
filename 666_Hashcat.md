@@ -2,9 +2,9 @@
 
 #### Hashcat-Cheatsheet
 
-Hashcat Cheatsheet for OSCP
-https://hashcat.net/wiki/doku.php?id=hashcat
-[Shout out to Github user frizb](https://github.com/frizb)
+##### Hashcat Cheatsheet for OSCP
+- https://hashcat.net/wiki/doku.php?id=hashcat
+- [Shout out to Github user frizb](https://github.com/frizb)
 
 #### Identify Hashes
 
