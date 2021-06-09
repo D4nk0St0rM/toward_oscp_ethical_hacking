@@ -17,7 +17,7 @@ I will attempt to ensure credit is given to those I have relied on during my jou
 
 * * *
 #### :panda_face: Credits & thanks for the many resources out there supporting the OSCP journey:
-including but not exhaustive:
+including (not exhaustive):
 * * *
 - tjnull
 - ippsec
