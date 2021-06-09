@@ -13,12 +13,17 @@ john the ripper
 john --wordlist=/user/share/wordlists/rockyou.txt hash.txt
 ```
 
-Hashcat << check type online - hashcat sample hash
+
+[Hashcat 1](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/tools/hashcat.md)
+[Hashcat 2](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/666_Hashcat.md)
 ```
 hashcat -m\<type> -a 0 /usr/share/wordlists/rockyou.txt hash.txt
 ```
 
 ### :panda_face: Web
+
+[Hydra](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/666_Hydra.md)
+[Hydra pdf](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/tools/Hydra-Password-Cracking-Cheatsheet.pdf)
 
 HTTP post form
 ```
