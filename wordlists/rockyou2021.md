@@ -8,7 +8,14 @@ pass: ye6KVrSAnxEXsRm9_8QkQQ
 
 unzip: ry2021
 ```
-This combines all the following passwords lists:
+
+### Notes
+- all passwords are 6-20 characters long
+- all lines with non-ASCII characters
+- white space or tab are removed
+- resulting in 82 billion unique entries
+
+##### This combines all the following passwords lists:
 
 - https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm
 - https://www.hack3r.com/forum-topic/wikipedia-wordlist
@@ -19,11 +26,7 @@ This combines all the following passwords lists:
 - other lists
 - multiple leaked db
 
-### Notes
-- all passwords are 6-20 characters long
-- all lines with non-ASCII characters
-- white space or tab are removed
-- resulting in 82 billion unique entries
+
 
 
 
