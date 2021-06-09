@@ -6,9 +6,9 @@ hydra -l admin  -P /opt/seclists/Passwords/probable-v2-top1575.txt  TARGET -V ht
 ```
 
 
-
-
 ### Hydra-Cheatsheet
+[PDF](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/tools/Hydra-Password-Cracking-Cheatsheet.pdf)
+
 Hydra Password Cracking Cheetsheet
 
 The following table uses the $ip variable which can be set with the following command:  
