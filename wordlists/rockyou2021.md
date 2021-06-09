@@ -1,4 +1,4 @@
-### Options to Download
+### Options to Download (mega.nz)
 
 - [Link 1](https://mega.nz/folder/aUEWFL7B#ikLMpByYfGehSoxXDEDSrA)
 - [Link 2](https://mega.nz/folder/Ip4iBDwT#RtYn83ar3IN1a8_dmR4A_g)
