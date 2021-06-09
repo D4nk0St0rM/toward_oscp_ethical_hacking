@@ -24,3 +24,7 @@ This combines all the following passwords lists:
 - all lines with non-ASCII characters
 - white space or tab are removed
 - resulting in 82 billion unique entries
+
+
+
+source: k y s 2 3 4
