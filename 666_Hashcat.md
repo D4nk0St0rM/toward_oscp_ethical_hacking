@@ -1,4 +1,6 @@
-### Hashcat-Cheatsheet
+#### [Hashcat](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/tools/hashcat.md)
+
+#### Hashcat-Cheatsheet
 
 Hashcat Cheatsheet for OSCP
 https://hashcat.net/wiki/doku.php?id=hashcat
