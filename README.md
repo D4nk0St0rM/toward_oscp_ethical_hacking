@@ -12,18 +12,6 @@ https://www.offensive-security.com/offsec/say-try-harder/
 </p></b></i>
 
 <p align="center">
-Framework and steps for my ethical hacking approach whislt studying for OSCP
-</p>
-<p align="center">
-A total work in progress which will continually evolve as I find my own flow and method
-</p>
-<p align="center">
- Planning on building template out in <a href="https://joplinapp.org/">Joplin</a> once refined enough to be useful for others on the same journey
- </p>
-
-<p align="center">
-I have taken some knowledge from others sharing support and resources.
-Sorry for not noting where originally found.
 I will attempt to ensure credit is given to those I have relied on during my journey.
 </p>
 
