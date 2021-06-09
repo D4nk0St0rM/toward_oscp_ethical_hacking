@@ -14,8 +14,8 @@ john --wordlist=/user/share/wordlists/rockyou.txt hash.txt
 ```
 
 
-[Hashcat 1](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/tools/hashcat.md)
-[Hashcat 2](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/666_Hashcat.md)
+- [Hashcat 1](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/tools/hashcat.md)
+- [Hashcat 2](https://github.com/D4nk0St0rM/oscp_ethical_hacking/blob/main/666_Hashcat.md)
 ```
 hashcat -m\<type> -a 0 /usr/share/wordlists/rockyou.txt hash.txt
 ```
