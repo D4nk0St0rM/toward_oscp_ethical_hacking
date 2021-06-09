@@ -24,4 +24,4 @@ The following table uses the $ip variable which can be set with the following co
   
   
  ##### references  
-[Github User frizb](https://github.com/frizb
+[Github User frizb](https://github.com/frizb)
