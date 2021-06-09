@@ -27,7 +27,61 @@ prefix="169.254" && for i in {0..254}; do echo $prefix.$i/8; for j in {1..254}; 
 prefix="10.0.0" && for i in `seq 25`; do ping -c 1 $prefix.$i &> /dev/null && echo "Answer from: $prefix.$i" ; done
 ```
 
+## nmap
+
+- [Firewall Rules](https://nmap.org/book/determining-firewall-rules.html)
+- [Bypass Firewalls](https://nmap.org/book/firewall-subversion.html)
+
+
 ### nmap port scanning
+
+Ping scan - The ping scan fails to find any responsive hosts
+```
+nmap -n -sn -PE -T4 10.10.10.0/24
+
+```
+
+Packet Trace - one IP on that network & TCP SYN scan on subnet &  -sA for an ACK scan
+```
+nmap -vv -n -sn -PE -T4 --packet-trace 10.10.10.7
+nmap -vv -n -sS -T4 -Pn --reason 10.10.10.0/24
+
+```
+Idle scan - bouncing scans off known boxes in network using the IPID Idle scan
+Check box works as a zombie by testing it against 10.10.6.60 - a known-responsive machine with port 25 open
+```
+nmap -vv -n -Pn -sI 10.10.6.30:445 -p 25 10.10.6.60
+```
+
+Source routing
+```
+nmap -n -sn -PE --ip-options "L 10.10.6.60" --reason 10.10.6.30
+```
+
+SYN scan - 10.10.10.0/24 and 10.10.5.0/24 subnets are on different VLANs - SYN scan 10.10.10.7 
+```
+nmap -vv -n -sS -Pn --ip-options "L 10.10.6.60" --reason 10.10.10.7
+```
+
+Bypass scan time protection
+```
+for target in 205.217.153.53 205.217.153.54 205.217.153.62; \
+do nmap --scan-delay 1075ms -p21,22,23,25,53 $target; \
+usleep 1075000; \
+done
+```
+
+Randomisation
+```
+ --randomize-hosts option which splits up the target networks into blocks of 16384 IPs, then randomizes the hosts in each block. 
+Generate the target IP list with a list scan (-sL -n -oN <filename>), randomize it with a Perl script, then provide the whole list to Nmap with -iL. 
+```
+
+DNS proxy
+```
+nmap --dns-servers 4.2.2.1,4.2.2.2 -sL 205.206.231.12/28
+```
+
 
 TCP Connect scanning for localhost and network 192.168.0.0/24
 ```
