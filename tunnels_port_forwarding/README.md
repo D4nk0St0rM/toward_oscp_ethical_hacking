@@ -1,3 +1,19 @@
+### proxychains4.conf
+```
+...
+strict_chain
+...
+# proxy_dns
+...
+
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks4 127.0.0.1 8080
+```
+
+
 ### dynamic port forward
 
 ```
