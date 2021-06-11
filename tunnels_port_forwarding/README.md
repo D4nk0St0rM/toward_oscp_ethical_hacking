@@ -36,6 +36,5 @@ smbclient -L 127.0.0.1 -U Administrator
 - SShuttle
 - cntlm
 - netsh port forwarding
-
-[0xdf blog](https://0xdf.gitlab.io/2019/01/28/pwk-notes-tunneling-update1.html)
-[HighonCoffee](https://highon.coffee/blog/ssh-meterpreter-pivoting-techniques/)
+- [0xdf blog](https://0xdf.gitlab.io/2019/01/28/pwk-notes-tunneling-update1.html)
+- [HighonCoffee](https://highon.coffee/blog/ssh-meterpreter-pivoting-techniques/)
