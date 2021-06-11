@@ -24,6 +24,37 @@ sudo /etc/init.d/smbd restart
 smbclient -L 127.0.0.1 -U Administrator
 ```
 
+### Ncat HTTP proxy
+
+    $ ncat -vv --listen 3128 --proxy-type http
+
+### Ncat Port Forwarder
+
+#### On attacker machine:
+
+    $ ncat -lv --broker -m2 <port>
+
+#### On pivot machine:
+
+    $ ncat -v <attacker_ip> <attacker_port> -c "ncat -v <host_to_pivot_to> <port_on_final_target"
+
+### Netcat Port Forwarder
+
+#### On pivot machine:
+
+    mknod pivot p
+    nc -l -p <port_to_listen_on> 0<pivot | nc <ip_to_pivot_to> <port_to_pivot_to> 1>pivot
+
+### Proxychains Setup
+
+#### Install and configure proxychains
+
+    tail /etc/proxychains.conf
+    #socks4 	127.0.0.1 9050
+    http 172.21.0.3  3128
+    #<type: http/socks4/socks5> <proxy_host> <proxy_port>
+
+
 #### See also:
 
 - HTTPTunnel-ing Through Deep Packet Inspection
