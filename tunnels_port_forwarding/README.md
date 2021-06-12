@@ -10,7 +10,7 @@ strict_chain
 # add proxy here ...
 # meanwile
 # defaults set to "tor"
-socks4 127.0.0.1 8080
+socks5 127.0.0.1 8080
 ```
 
 
