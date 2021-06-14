@@ -2,6 +2,11 @@
 [PowerView.ps1](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1)
 
 
+Resolve IP and names in domain
+```
+"Get-DomainComputer | % {Resolve-DnsName $_.cn | Select Name, IPAddress}
+```
+
 get all the groups a user is effectively a member of, 'recursing up' using tokenGroups
 ```
 Get-DomainGroup -MemberIdentity <User/Group>
