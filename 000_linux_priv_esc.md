@@ -47,6 +47,7 @@ which scp
 which ftp
 which tftp
 which curl
+docker run -it -v /:/host/ ubuntu:latest chroot /host/ bash
 ```
 
 
