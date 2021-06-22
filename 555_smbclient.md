@@ -1,5 +1,20 @@
 # smbclient + enum4linux + nmap
 
+### pull files
+```
+smbclient '\\server\share' -N -c 'prompt OFF;recurse ON;cd 'path\to\directory\';lcd '~/path/to/download/to/';mget *'`
+
+OR
+
+smbclient '\\server\share'
+mask ""
+recurse ON
+prompt OFF
+cd 'path\to\remote\dir'
+lcd '~/path/to/download/to/'
+mget *
+```
+
 
 ### List shares
 ```
