@@ -1,5 +1,20 @@
 
 
+## sc.exe (when wmic does not work)
+
+```
+sc query state= all | findstr "SERVICE_NAME:" >> Servicenames.txt
+
+FOR /F %i in (Servicenames.txt) DO echo %i
+type Servicenames.txt
+
+FOR /F "tokens=2 delims= " %i in (Servicenames.txt) DO @echo %i >> services.txt
+
+FOR /F %i in (services.txt) DO @sc qc %i | findstr "BINARY_PATH_NAME" >> path.txt
+
+cacls "C:\path\to\file.exe"
+
+```
 ## Tools
 
     PowerSploit’s PowerUp
