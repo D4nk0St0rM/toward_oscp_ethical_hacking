@@ -25,6 +25,10 @@ for i in `seq 1 255`; do ping -c 1 10.10.10.$i | tr \\n ' ' | awk '/1 received/ 
 prefix="169.254" && for i in {0..254}; do echo $prefix.$i/8; for j in {1..254}; do sh -c "ping -m 1 -c 1 -t 1 $prefix.$i.$j | grep \"icmp\" &" ; done; done
 
 prefix="10.0.0" && for i in `seq 25`; do ping -c 1 $prefix.$i &> /dev/null && echo "Answer from: $prefix.$i" ; done
+
+## windows
+for /l %i in (1,1,254) do @ping -n 1 -w 100 <first three octets of host network>.%i
+
 ```
 
 ## nmap
