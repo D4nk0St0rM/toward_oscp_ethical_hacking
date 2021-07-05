@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/NotSoSecure/password_cracking_rules/master/OneRuleToRuleThemAll.rule
+
 ```
 tree -d /usr/share/wordlists
 ```
