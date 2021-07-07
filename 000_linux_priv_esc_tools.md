@@ -58,7 +58,7 @@ https://github.com/ShotokanZH/Pa-th-zuzu.git
 https://github.com/ShotokanZH/Pathzuzy.git
 ```
 
-/Arr0way/linux-local-enumeration-script
+Arr0way/linux-local-enumeration-script
 ```
 https://github.com/Arr0way/linux-local-enumeration-script.git
 ```
