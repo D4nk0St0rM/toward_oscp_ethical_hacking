@@ -1,4 +1,4 @@
-##### some automation tools for priv esc review
+### some automation tools for priv esc - linux
 
 carlospolop/privilege-escalation-awesome-scripts-suite
 ```
