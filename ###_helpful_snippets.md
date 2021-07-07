@@ -1,4 +1,4 @@
-##### snippets that help 
+### snippets that help 
 
 
 nmap banners and vulns
